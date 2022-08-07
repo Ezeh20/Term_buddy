@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="/main.js" defer></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/public/images/favicon.svg" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="app.css">
+    <title>Termbuddy</title>
+</head>
+<body class=" text-text_color font-Mulish">
+    <header class=" bg-[#FEFEFE] w-full h-[5rem] fixed flex items-center z-10 shadow-sm">
+        <nav class=" flex items-center w-full container_two justify-between">
+            <h1><a href="#" class=" text-[20px] font-[700] leading-[32px] text-primary">Termbuddy</a></h1>
+            <div class="nav_menu flex bg-nav_backdrop/50 w-full h-full fixed top-20 left-0" id="nav-backdrop">
+                <div class="nav_nav fixed bg-[#FEFEFE] w-[50%] h-[100%] top-20 left-0" id="nav-menu">
+                    <ul>
+                        <li class="nav_list">
+                            <a href="#">Product</a>
+                        </li>
+                        <li class="nav_list">
+                            <a href="#">Template</a>
+                        </li>
+                        <li class="nav_list">
+                            <a href="#">About Us</a>
+                        </li>
+                        <li class="nav_list">
+                            <a href="#">Contant Us</a>
+                        </li>
+                        <li class="nav_list">
+                            <a href="#">Docs</a>
+                        </li>
+                    </ul>
+                    <div class="btns flex flex-col justify-self-start items-start">
+                        <button class=" items-start">
+                            <a href="#">Sign in</a>
+                        </button>
+                        <button>
+                            <a href="#">Sign Up</a>
+                        </button>
+                    </div>
+                   <!-- <img src="/public/images/menu_close.svg" alt="" class="nav_close cursor-pointer">-->
+                </div>
+            </div>
+            <img src="images/menu_open.svg" alt="" class=" nav_toggle cursor-pointer" id="nav-toggle">
+        </nav>
+    </header>
+</body>
+</html>

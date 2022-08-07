@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;  
+@tailwind utilities;
+
+
+@layer base{
+    :root{
+        --primary-color:43 122 120;
+        --secondary-color:22 61 60;
+        --text-color:82 82 82;
+        --body-color:245 245 245;
+        --body-color-alt:254 254 254;
+        --nav-bg-mobile:213 228 228;
+        --nav-backdrop:0 0 0;
+    }
+}
+*{
+    @apply p-0 m-0 list-none 
+}
+img,
+video{
+    @apply max-w-full h-auto
+}
+button,
+input{
+    @apply border-none
+}
+button{
+    @apply cursor-pointer
+}
+input{
+    @apply outline-none
+}
+
+.section_title{
+    @apply text-[24px] lg:text-[56px] bg-[#101828] font-[700] capitalize text-center mb-[1.5rem] lg:mb-[2rem] leading-[36px] lg:leading-[80px] 
+}
+.section_title_sub{
+    @apply text-[24px] lg:text-[40px] bg-[#1F1F1F] font-[700] capitalize text-center mb-[1.5rem] lg:mb-[2rem] leading-[36px] lg:leading-[48px] 
+}
+
+.container{
+    @apply ml-6 mr-6 max-w-[1044px] lg:ml-auto lg:mr-auto
+}
+
+.container_two{
+    @apply ml-6 mr-6 max-w-[1200px] xl:ml-auto xl:mr-auto
+}
