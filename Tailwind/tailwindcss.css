@@ -64,3 +64,9 @@ a{
 .btn_alt a{
     @apply text-[#FEFEFE]
 }
+.nav_list a{
+    @apply hover:text-[#fff]  flex hover:w-full hover:h-full hover:p-2 transition-all duration-200 hover:bg-[#53a09f] 
+}
+.show_nav{
+    @apply left-0 transition-all duration-1000
+}
