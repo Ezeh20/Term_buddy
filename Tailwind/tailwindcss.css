@@ -53,7 +53,7 @@ a{
     @apply font-[400] text-[#272727] text-[16px]
 }
 .btn{
-    @apply flex items-center justify-center border border-solid border-[#2B7A78] w-[100%] h-[48px] sm:h-[40px]     rounded-[8px] text-[16px] text-[#2B7A78] hover:bg-[#53a09f] hover:border-[0px] 
+    @apply flex items-center justify-center border border-solid border-[#2B7A78] w-[100%] h-[48px] sm:h-[40px]  transition-all duration-300   rounded-[8px] text-[16px] text-[#2B7A78] hover:bg-[#53a09f] hover:border-[0px] 
 }
 .btn a{
     @apply text-[16px] text-[#2B7A78] flex  w-[100%]  h-[48px] hover:text-[#FEFEFE] text-center items-center justify-center
